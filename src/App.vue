@@ -5,35 +5,27 @@
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductList from './sections/ProductList.vue';
-import { colors } from './assets/variables/colors.js';
 
 export default {
   name: 'App',
   components: {
     ProductList
   },
-  data() {
-      return {
-          colors: colors
-      }
-  }
 }
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'primeicons/primeicons.css';
+
 .d-flex {
   display: flex;
 }
 
-.w-p100 {
-  width: 100%;
-}
-
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   background-color: #F9EFDB;
   height: 100vh;

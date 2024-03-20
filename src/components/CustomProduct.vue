@@ -8,7 +8,9 @@
                 <p class="product-title" :style="{color: colors.black}">{{ title }}</p>
                 <p class="product-title" :style="{color: colors.primary}">${{ price.toFixed(2) }}</p>
                 <CustomStars :ratingVal="rating" />
-                <CustomButton />
+                <div class="text-end">
+                    <CustomButton :icon="'pi pi-shopping-cart'" :btnClass="'btn shadow'" />
+                </div>
             </div>
         </div>
     </div>

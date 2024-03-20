@@ -1,15 +1,18 @@
 <template>
+  <HeaderNav />
   <ProductList />
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css';
+import HeaderNav from './sections/HeaderNav.vue';
 import ProductList from './sections/ProductList.vue';
 
 export default {
   name: 'App',
   components: {
-    ProductList
+    HeaderNav,
+    ProductList,
   },
 }
 </script>
@@ -28,7 +31,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   background-color: #F9EFDB;
-  height: 100vh;
 }
 
 body {
@@ -38,5 +40,43 @@ body {
 
 p {
   margin: 0;
+}
+
+.heading {
+  font-size: 45px;
+  font-weight: 800
+}
+
+.subheading {
+  font-size: 24px;
+  font-weight: 800
+}
+
+@media screen and (min-width: 1400px) {
+    .section {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    .section {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .section {
+        padding-right: 6%;
+        padding-left: 6%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .section {
+        padding-right: 1%;
+        padding-left: 1%;
+    }
 }
 </style>

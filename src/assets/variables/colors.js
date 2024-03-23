@@ -5,4 +5,5 @@ export const colors = {
     primary: '#2EA65C',
     secondary: '#8c8a8a',
     yellow: '#ffcb00',
+    brown: '#a67b4e',
 }

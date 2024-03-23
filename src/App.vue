@@ -1,18 +1,24 @@
 <template>
   <HeaderNav />
   <ProductList />
+  <AboutUs />
+  <BlogTips />
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderNav from './sections/HeaderNav.vue';
 import ProductList from './sections/ProductList.vue';
+import AboutUs from './sections/AboutUs.vue';
+import BlogTips from './sections/BlogTips.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderNav,
     ProductList,
+    AboutUs,
+    BlogTips
   },
 }
 </script>
@@ -48,7 +54,7 @@ p {
 }
 
 .subheading {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 800
 }
 
@@ -56,6 +62,7 @@ p {
     .section {
         padding-right: 15%;
         padding-left: 15%;
+        margin-top: 3rem;
     }
 }
 

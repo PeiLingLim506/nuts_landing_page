@@ -9,7 +9,7 @@
                 <p class="product-title" :style="{color: colors.primary}">${{ price.toFixed(2) }}</p>
                 <CustomStars :ratingVal="rating" />
                 <div class="text-end">
-                    <CustomButton :icon="'pi pi-shopping-cart'" :btnClass="'btn shadow'" />
+                    <CustomButton :icon="'pi pi-shopping-cart'" :btnClass="'btn shadow px-3 py-2'" />
                 </div>
             </div>
         </div>

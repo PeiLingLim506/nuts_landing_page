@@ -7,10 +7,7 @@
             <div class="col-6">
                 <p class="subheading mb-4">About Us</p>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <CustomPoint :text="'Lorem ipsum dolor sit amet'" />
-                <CustomPoint :text="'Lorem ipsum dolor si'" />
-                <CustomPoint :text="'Lorem ipsum dolor sit amet Lorem'" />
-                <CustomPoint :text="'Lorem ipsum dolor sit amet'" />
+                <CustomPoint v-for="(a, index) in about" :key="index" :text="a" />
             </div>
         </div>
     </div>
@@ -18,6 +15,7 @@
 
 <script>
 import { colors } from '@/assets/variables/colors';
+import { about } from '@/assets/variables/about';
 import CustomPoint from '@/components/CustomPoint.vue';
 
 export default {
@@ -27,7 +25,8 @@ export default {
     },
     data() {
         return {
-            colors: colors
+            colors: colors,
+            about: about
         }
     },
 }

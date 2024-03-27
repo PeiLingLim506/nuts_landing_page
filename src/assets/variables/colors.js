@@ -6,4 +6,6 @@ export const colors = {
     secondary: '#8c8a8a',
     yellow: '#ffcb00',
     brown: '#a67b4e',
+    brown2: '#e6cfbf',
+    brown3: '#8e6565',
 }

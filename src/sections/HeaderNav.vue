@@ -11,7 +11,7 @@
                     </div>
                 </div>
                 <div class="col-6 position-relative">
-                    <img class="nuts-img position-absolute" src="../assets/images/nuts.png" alt="">
+                    <img class="nuts-img position-absolute w-p100" src="../assets/images/nuts.png" alt="">
                 </div>
             </div>
         </div>
@@ -41,7 +41,6 @@ export default {
 }
 
 .nuts-img {
-    width: 100%;
     bottom: -110px;
     border-bottom-left-radius: 70px;
     border-top-right-radius: 70px;

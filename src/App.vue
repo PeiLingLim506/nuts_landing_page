@@ -31,6 +31,14 @@ export default {
   display: flex;
 }
 
+.w-p100 {
+  width: 100%
+}
+
+.h-p100 {
+  height: 100%
+}
+
 #app {
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -56,6 +64,10 @@ p {
 .subheading {
   font-size: 30px;
   font-weight: 800
+}
+
+.owl-stage {
+  display: flex
 }
 
 @media screen and (min-width: 1400px) {

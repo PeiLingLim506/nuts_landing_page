@@ -1,6 +1,6 @@
 <template>
     <div class="col-4 col-md-3">
-        <div class="product" :style="{backgroundColor: colors.white}">
+        <div class="product h-p100" :style="{backgroundColor: colors.white}">
             <div class="product-img-box d-flex align-items-center justify-content-center">
                 <img class="product-img" :src="img" alt="">
             </div>
@@ -55,7 +55,6 @@ export default {
 .product {
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
-    height: 100%;
 }
 
 .product-title {

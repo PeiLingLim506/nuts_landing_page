@@ -2,15 +2,15 @@
     <div class="bg-black background py-5">
         <div class="section">
             <div class="row g-3 m-0">
-                <div class="col-6 ps-2 position-relative">
+                <div class="col-12 col-lg-6 ps-5 ps-md-2 position-relative">
                     <p class="heading text-white mb-5">The Nuts<br>is good for you!</p>
                     <p :style="{color: colors.secondary}"><span :style="{color: colors.brown}">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
-                    <div class="d-flex mt-5">
+                    <div class="d-flex flex-column flex-sm-row mt-5">
                         <CustomButton :content="'learn more'" :color="colors.primary" :textColor="colors.white" :colorHover="colors.yellow" :btnClass="'btn me-3'" />
-                        <CustomButton :content="'get product'" :color="colors.brown" :textColor="colors.white" :colorHover="colors.yellow" />
+                        <CustomButton :content="'get product'" :color="colors.brown" :textColor="colors.white" :colorHover="colors.yellow" :btnClass="'btn me-3 me-sm-0 mt-3 mt-sm-0'" />
                     </div>
                 </div>
-                <div class="col-6 position-relative">
+                <div class="col-6 position-relative d-none d-lg-block">
                     <img class="nuts-img position-absolute w-p100" src="../assets/images/nuts.png" alt="">
                 </div>
             </div>

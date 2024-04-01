@@ -1,10 +1,10 @@
 <template>
     <div class="section">
         <div class="about-us row bg-white g-0 m-2 p-5">
-            <div class="col-5 text-center">
+            <div class="col-5 text-center d-none d-md-block">
                 <img class="nuts-img-2" src="https://naturesupply.eu/wp-content/uploads/2021/10/nuts-down.png" alt="">
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <p class="subheading mb-4">About Us</p>
                 <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <CustomPoint v-for="(a, index) in about" :key="index" :text="a" />

@@ -1,5 +1,5 @@
 <template>
-    <div class="col-4 col-md-3">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="product h-p100" :style="{backgroundColor: colors.white}">
             <div class="product-img-box d-flex align-items-center justify-content-center">
                 <img class="product-img" :src="img" alt="">

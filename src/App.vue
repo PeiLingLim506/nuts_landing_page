@@ -70,11 +70,14 @@ p {
   display: flex
 }
 
+.section {
+  margin-top: 3rem;
+}
+
 @media screen and (min-width: 1400px) {
     .section {
         padding-right: 15%;
         padding-left: 15%;
-        margin-top: 3rem;
     }
 }
 
@@ -87,15 +90,32 @@ p {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .section {
-        padding-right: 6%;
-        padding-left: 6%;
+        padding-right: 3%;
+        padding-left: 3%;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .section {
-        padding-right: 1%;
-        padding-left: 1%;
+        padding-right: 6%;
+        padding-left: 6%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .section {
+        padding-right: 3%;
+        padding-left: 3%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .section {
+        padding-right: 2%;
+        padding-left: 2%;
+        margin-top: 1rem;
     }
 }
 </style>

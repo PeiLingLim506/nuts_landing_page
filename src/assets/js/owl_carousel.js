@@ -10,10 +10,10 @@ export default function initOwlCarousel() {
             0: {
                 items: 1
             },
-            600: {
-                items: 3
+            768: {
+                items: 2
             },
-            1200: {
+            992: {
                 items: 3
             }
         }
